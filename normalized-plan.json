@@ -1,0 +1,166 @@
+Normalized plan {
+    "entities": {
+        "user": {
+            "userMatt": {
+                "id": "userMatt",
+                "name": "Matt"
+            },
+            "userRyan": {
+                "id": "userRyan",
+                "name": "Ryan"
+            }
+        },
+        "block": {
+            "block2.1.1": {
+                "id": "block2.1.1",
+                "x": 0,
+                "y": 0,
+                "width": 36,
+                "height": 41,
+                "type": "stock"
+            },
+            "block2.1.2": {
+                "id": "block2.1.2",
+                "x": 36,
+                "y": 0,
+                "width": 36,
+                "height": 41,
+                "type": "stock"
+            },
+            "block2.1.3": {
+                "id": "block2.1.3",
+                "x": 72,
+                "y": 0,
+                "width": 36,
+                "height": 41,
+                "type": "stock"
+            },
+            "block2.2.1": {
+                "id": "block2.2.1",
+                "x": 0,
+                "y": 0,
+                "width": 36,
+                "height": 41,
+                "type": "stock"
+            },
+            "block2.2.2": {
+                "id": "block2.2.2",
+                "x": 36,
+                "y": 0,
+                "width": 36,
+                "height": 41,
+                "type": "stock"
+            },
+            "block2.2.3": {
+                "id": "block2.2.3",
+                "x": 72,
+                "y": 0,
+                "width": 36,
+                "height": 41,
+                "type": "stock"
+            },
+            "block1.1.1": {
+                "id": "block1.1.1",
+                "x": 0,
+                "y": 0,
+                "width": 36,
+                "height": 41,
+                "type": "stock"
+            },
+            "block1.1.2": {
+                "id": "block1.1.2",
+                "x": 36,
+                "y": 0,
+                "width": 36,
+                "height": 41,
+                "type": "stock"
+            },
+            "block1.1.3": {
+                "id": "block1.1.3",
+                "x": 72,
+                "y": 0,
+                "width": 36,
+                "height": 41,
+                "type": "stock"
+            },
+            "block1.2.1": {
+                "id": "block1.2.1",
+                "x": 0,
+                "y": 0,
+                "width": 36,
+                "height": 41,
+                "type": "stock"
+            },
+            "block1.2.2": {
+                "id": "block1.2.2",
+                "x": 36,
+                "y": 0,
+                "width": 36,
+                "height": 41,
+                "type": "stock"
+            },
+            "block1.2.3": {
+                "id": "block1.2.3",
+                "x": 72,
+                "y": 0,
+                "width": 36,
+                "height": 41,
+                "type": "stock"
+            }
+        },
+        "wall": {
+            "wall2.1": {
+                "id": "wall2.1",
+                "x": 15,
+                "y": 10,
+                "length": 120,
+                "height": 120,
+                "blockList": ["block2.1.1", "block2.1.2", "block2.1.3"]
+            },
+            "wall2.2": {
+                "id": "wall2.2",
+                "x": 150,
+                "y": 100,
+                "length": 240,
+                "height": 144,
+                "blockList": ["block2.2.1", "block2.2.2", "block2.2.3"]
+            },
+            "wall1.1": {
+                "id": "wall1.1",
+                "x": 15,
+                "y": 10,
+                "length": 120,
+                "height": 120,
+                "blockList": ["block1.1.1", "block1.1.2", "block1.1.3"]
+            },
+            "wall1.2": {
+                "id": "wall1.2",
+                "x": 150,
+                "y": 100,
+                "length": 240,
+                "height": 120,
+                "blockList": ["block1.2.1", "block1.2.2", "block1.2.3"]
+            }
+        },
+        "revision": {
+            "revision2": {
+                "id": "revision2",
+                "dateModified": 1522599764147,
+                "wallList": ["wall2.1", "wall2.2"]
+            },
+            "revision1": {
+                "id": "revision1",
+                "dateModified": 1522599764147,
+                "wallList": ["wall1.1", "wall1.2"]
+            }
+        }
+    },
+    "result": {
+        "id": "plan1",
+        "name": "Matt's Plan",
+        "description": "Matt's first mock plan for testing Normalizr",
+        "dateCreated": 1522599764147,
+        "contributors": ["userMatt", "userRyan"],
+        "revisions": ["revision2", "revision1"]
+    }
+}
